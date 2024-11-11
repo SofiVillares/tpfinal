@@ -1,0 +1,94 @@
+.Imagenes {
+    width: 30%;
+    height: 40%;
+    display: block;
+    align-items: flex-end;
+}
+
+a{
+color: white;
+gap: 50px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    font-family: "Gowun Batang", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.fanta h2 {
+    display: grid;
+    margin-left: 50%;
+    margin-right: 5%;
+    margin-top: 30;
+
+}
+
+header{
+    background-image: url(../Web/Imagenes/CamiónCoca.avif);
+    display: flex;
+    width: 500px;
+}
+
+.perfil {
+    top: 15px;
+    margin-left: 1850px;
+    margin-right: auto;
+    width: 3%;
+    position: absolute;
+    color: white;
+}
+
+.Encabezado {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    font-style: normal;
+    text-decoration: none;
+    position: absolute;
+
+}
+
+main{
+
+    height: 300px;
+    /* border: 3px solid black; */
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    flex-wrap: wrap;
+}
+/* 
+h2 {
+    text-align: center;
+    font-size: 50px;
+} */
+.fantas{
+    display: flex;
+    
+    width: auto;
+    margin: auto;
+    
+}
+.pomelo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+.fantas article h1{
+    color: black;
+    font-size: 90px;
+}
+.fantas article h2{
+    color:tomato;
+    font-size: 60px;
+}
+.fantas article img{
+    width:700px;
+    height: 700px;
+    
+}

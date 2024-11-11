@@ -1,0 +1,346 @@
+
+.PrimerParrafo{
+    color:brown;
+    line-height: 50px;
+}
+p{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-align: justify;
+    letter-spacing: 3px;
+}   
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+h1{
+    color: rgba(0, 0, 0, 0.212);
+    font-weight: 700;
+    font-size: 50px;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+h2{
+    text-align: center;
+    text-transform: initial;
+    background-color: rgb(201, 248, 252);
+    font-family: "Edu AU VIC WA NT Guides", cursive;  /* para poder poner google fonts */
+
+}
+
+header{
+    font-size: 50px;
+    border: 50px;
+}
+.Practicando{
+    color: green;
+    border-radius: 30px;
+}
+.hero{
+    width: 600px;
+    height: 450px;
+    background-color: aqua;
+     background-image: url(../images/mate.jpeg);
+    background-repeat: no-repeat;  
+    background-size: cover;
+}
+.Equipo{
+    width: 100%;
+    height: 50%;
+}
+video{
+    width: 100%;
+    height: 50%;
+}
+iframe{
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    padding: 50px;
+    /* Para centrar una imagen o video o un link ubicarle un display y poner que los margenes sean automáticos */
+}
+
+footer{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+}
+/* .item-2{
+    width: 100px;
+    height: 100px;
+    background: yellow;
+
+}
+
+.container_padre{
+    width: 500px;
+    height: 500px;
+    background: green;
+    margin: 40px 200px;
+    position: relative;
+
+}
+
+.item{
+    width: 100px;
+    height: 100px;
+    background: black;
+    position: absolute;
+    top: 0; 
+    left: 100%;
+} */
+
+.tarjeta{
+    width: 300px;
+    height:300px;
+    background: grey;
+    margin: 80px 20px;
+    position: relative;
+    border-radius: 30px;
+    display: inline-block;
+    
+}
+.articulo{
+    width: 280px;
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    
+}
+.precio_1{
+    position: absolute;
+    bottom: -20px; 
+    left:43%;
+    color:white;
+    font-weight: bold;
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.numero_1{
+    background: orange;
+    position: absolute;
+    color: white;
+    padding: 20px;
+    border-radius: 50px;
+    top:-60px;
+    left: 85%;
+}
+.articulo_2{
+    width: 280px;
+    position: absolute;
+    top: 75px;
+    left: 10px;
+    
+}
+.precio_2{
+    position: absolute;
+    bottom: -20px; 
+    left:33%;
+    color:white;
+    font-weight: bold;
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.numero_2{
+    background: orange;
+    position: absolute;
+    color: white;
+    padding: 20px;
+    border-radius: 50px;
+    top:-60px;
+    left: 85%;
+}
+.articulo_3{
+    width: 280px;
+    position: absolute;
+    top: 80px;
+    left: 10px;
+}
+.precio_3{
+    position: absolute;
+    bottom: -20px; 
+    left:23%;
+    color:white;
+    font-weight: bold;
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.numero_3{
+    background: orange;
+    position: absolute;
+    color: white;
+    padding: 20px;
+    border-radius: 50px;
+    top:-60px;
+    left: 85%;
+}
+.articulo_4{
+    width: 250px;
+    position: absolute;
+    top: -30px;
+    left: 30px;
+}
+.precio_4{
+    position: absolute;
+    bottom: -20px; 
+    left:33%;
+    color:white;
+    font-weight: bold;
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.numero_4{
+    background: orange;
+    position: absolute;
+    color: white;
+    padding: 20px;
+    border-radius: 50px;
+    top:-60px;
+    left: 85%;
+}
+.articulo_5{
+    width: 250px;
+    position: absolute;
+    top: 50px;
+    left: 30px;
+}
+.precio_5{
+    position: absolute;
+    bottom: -20px; 
+    left:33%;
+    color:white;
+    font-weight: bold;
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.numero_5{
+    background: orange;
+    position: absolute;
+    color: white;
+    padding: 20px;
+    border-radius: 50px;
+    top:-60px;
+    left: 85%;
+}
+.articulo_6{
+    width: 250px;
+    position: absolute;
+    top: 60px;
+    left: 30px;
+}
+.precio_6{
+    position: absolute;
+    bottom: -20px; 
+    left:28%;
+    color:white;
+    font-weight: bold;
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.numero_6{
+    background: orange;
+    position: absolute;
+    color: white;
+    padding: 20px;
+    border-radius: 50px;
+    top:-60px;
+    left: 85%;
+}
+.articulo_7{
+    width: 250px;
+    position: absolute;
+    top: 50px;
+    left: 30px;
+}
+.precio_7{
+    position: absolute;
+    bottom: -20px; 
+    left:25%;
+    color:white;
+    font-weight: bold;
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.numero_7{
+    background: orange;
+    position: absolute;
+    color: white;
+    padding: 20px;
+    border-radius: 50px;
+    top:-60px;
+    left: 85%;
+}
+.articulo_8{
+    width: 250px;
+    position: absolute;
+    top: 75px;
+    left: 30px;
+}
+.precio_8{
+    position: absolute;
+    bottom: -20px; 
+    left:25%;
+    color:white;
+    font-weight: bold;
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.numero_8{
+    background: orange;
+    position: absolute;
+    color: white;
+    padding: 20px;
+    border-radius: 50px;
+    top:-60px;
+    left: 85%;
+}
+
+/* 
+main{
+    width: 80%;
+    margin: auto;
+} */
+/* header{
+    width: 70%;
+    margin: 0 auto; 
+    background: rgb(211, 109, 109);
+} */
+
+ul{
+    position: relative;
+}
+li{
+    display: inline;
+    margin: 0px 20px;
+} 
+/* .item{
+ width: 100px;
+ height: 100px;
+}
+.item-1{
+background-color: red;
+padding: 15px 20px 10px 20px;
+/* padding-top: 15px;
+padding-right: 20px;
+padding-bottom: 10px;
+padding-left: 20px; }
+
+.item-2{
+background-color: yellowgreen;
+}
+.item-3{
+background-color: aquamarine;
+} 

@@ -1,0 +1,181 @@
+/* .item{
+    width: 200px;
+    height: 100px;
+}
+
+.item-1{
+    background: hsl(0, 95%, 43%);
+}
+.item-2{
+    background: hsl(63, 96%, 46%);
+}
+.item-3{
+    background: hwb(305 2% 4%);
+} */
+header {
+    display: flex;
+}
+
+.perfil {
+    width: 50px;
+    height: 50px;
+
+
+    align-items: end;
+}
+
+main {
+
+    /* border: 3px solid black; */
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.parrafo {
+    width: 90%;
+    color: black;
+    margin-top: 30px;
+    text-align: justify;
+}
+
+.hero {
+    display: flex;
+
+    width: 90%;
+    margin: auto 80px;
+}
+
+.hero article h1 {
+    margin-top: 30px;
+    margin-right: 30px;
+    color: black;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.hero article img {
+    width: 850px;
+    height: auto;
+    margin-top: 30px;
+    margin-right: -50px;
+}
+
+.hero_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+p {
+    font-size: 75%;
+}
+
+/* @media (max-width: 992){
+    
+} */
+
+
+@media (max-width: 1024px){
+    .hero article img {
+       width: 600px;
+       margin-right: -30px;
+    }
+}
+@media (max-width: 768px) {
+    .hero article img {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+/* 
+@media (width >= 700px){
+    main{
+        flex-wrap: wrap;
+    }
+    body{
+        background: rgb(19, 112, 42);
+    }
+}
+
+@media (width >=768px) {
+    .hero_content {
+        flex-wrap: nowrap;
+    }
+
+    body {
+        background: rgb(255, 255, 255);
+    }
+    .tarjeta {
+        flex-wrap: nowrap ;
+    }
+    
+} */
+/* @media (width < 700px){
+    body{
+        background: red;
+        flex-direction: row;
+    }
+    .tarjetas  {
+        width: 200px;
+        height: 200px;
+        }
+    
+} */
+
+.tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 5% 10%;
+}
+
+.tarjeta {
+    width: 300px;
+    height: 300px; 
+    background: grey;
+    margin: 80px 20px;
+    position: relative;
+    border-radius: 30px;
+}
+
+.articulo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.precio {
+    position: absolute;
+    bottom: 0;
+    left: 60%;
+    color: white;
+    font-weight: bold;
+    font-family: "Protest Strike", sans-serif;
+    font-size: 20px;
+}
+
+.numero {
+    background: orange;
+    color: white;
+    padding: 10px; /* Ajustar padding si es necesario */
+    border-radius: 50%;
+    position: absolute;
+    top: -40px; /* Ajustar la posición vertical */
+    right: -25px; /* Hacer que sobresalga a la derecha */
+    width: 40px; /* Ancho del círculo */
+    height: 40px; /* Alto del círculo */
+    display: flex;
+    align-items: center; /* Centrar verticalmente */
+    justify-content: center; /* Centrar horizontalmente */
+    font-size: 16px; /* Tamaño de fuente */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Sombra opcional */
+}

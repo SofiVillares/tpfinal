@@ -1,0 +1,66 @@
+.animacion{
+    width: 200px;
+    height: 200px;
+    /* border: 2px solid black;
+    cursor: pointer;
+    margin: 50px;
+    transition: 1s; */
+/* background-image: url(../images/auto.png); */
+background: red;
+background-size: cover;
+position:relative;
+
+animation-name: Cuadrado;
+animation-duration: 15s;
+}
+
+@keyframes Cuadrado {
+    0%{
+        left: 0px;
+        top: 0px;
+    }
+    50%{
+        left: 500px;
+        top: 0px;
+    }
+    100%{
+        left: 500px;
+        top: 500px;
+    }
+}
+
+
+/* .animacion:hover{
+    width: 200px;
+    height: 100px;
+    background: transparent;
+} */
+
+/* .animacion:hover{
+transform: scale(1.1);
+} */
+
+/* .animacion:hover{
+    transform: translate(40px,30px);
+    /* transform: translateX(40px);
+    transform: translateY(20px); */
+
+    
+
+/* .animacion:hover{
+    transform: rotate(45deg);
+    /* transform:rotateX('angle');
+    transform:rotateY('angle') */
+
+ */
+
+a{
+    text-decoration: none;
+    color: black;
+    margin: 15px;
+}
+
+a:hover{
+    color: white;
+    background-color: black;
+}
